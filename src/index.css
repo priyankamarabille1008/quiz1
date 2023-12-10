@@ -1,0 +1,60 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Reset default styles for the list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style for the navigation bar */
+  nav {
+    background-color: #333; /* Set the background color */
+    padding: 10px; /* Add some padding for better appearance */
+  }
+  
+  /* Style for the navigation links */
+  nav ul {
+    display: flex; /* Use flexbox to arrange links horizontally */
+  }
+  
+  nav li {
+    margin-right: 15px; /* Add some spacing between links */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set text color */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  /* Change link color on hover */
+  nav a:hover {
+    color: #ffcc00; /* Set the hover color */
+  }
+
+
+.content {
+  margin: 20px;
+}
+
+
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

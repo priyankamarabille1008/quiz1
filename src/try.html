@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>try</title>
+</head>
+<body>
+    <form onsubmit="fun(event)">
+    <input type="radio" name="gen" value="f"/>f<br>
+    <input type="radio" name="gen" value="m"/>m<br>
+    <input type="radio" name="gen" value="o"/>o <br>
+    <input type="submit" />
+    </form>
+    <script>
+        function fun(event){
+            let g=event.target.gen.value;
+            alert("Gender="+g);
+        }
+    </script>
+</body>
+</html>
